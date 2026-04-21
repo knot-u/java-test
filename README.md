@@ -115,6 +115,7 @@ curl http://localhost:8080/votes/statistics
 
 ## Test Coverage
 
+
 ## Evidence for Submission
 
 Include screenshots for:
@@ -147,10 +148,12 @@ Vote:
 <img width="1570" height="911" alt="image" src="https://github.com/user-attachments/assets/332b78aa-7382-46df-8814-1924cfbcc87c" />
 
 Votes statistics:
+<img width="1201" height="941" alt="image" src="https://github.com/user-attachments/assets/4c4b6e7f-b632-4452-ba64-1adf532601a9" />
+
+Swagger UI:
+<img width="1262" height="1019" alt="image" src="https://github.com/user-attachments/assets/8e3cf813-4251-4572-a045-e95073ac5759" />
+
+Unit Tests:
 ![Uploading image.png…]()
 
 
-- Successful vote creation response
-- Rejected second vote attempt
-- `/votes/statistics` response
-- Swagger UI page with endpoints
