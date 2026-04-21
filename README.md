@@ -1,4 +1,4 @@
-# Voting System REST API
+# Voting System REST API - Belongs to Santiago Cardona Arboleda
 
 RESTful API built with Spring Boot and MySQL to manage voters, candidates, votes, and election statistics.
 
