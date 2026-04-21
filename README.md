@@ -115,20 +115,40 @@ curl http://localhost:8080/votes/statistics
 
 ## Test Coverage
 
-Current automated tests include:
-
-- `VoteServiceTest` for one-vote rule and vote state updates.
-- `VoteControllerTest` for vote creation and statistics endpoint.
-- `PruebaApplicationTests` for Spring context bootstrapping.
-
-## Optional Features
-
-- JWT authentication can be added as an extra.
-- Filtering and pagination for list endpoints can be added as an extra.
-
 ## Evidence for Submission
 
 Include screenshots for:
+Succes Log In:
+Authorized
+<img width="1570" height="793" alt="image" src="https://github.com/user-attachments/assets/b6214418-f14a-400d-be78-838827add129" />
+
+Unauthorized
+<img width="1583" height="895" alt="image" src="https://github.com/user-attachments/assets/87731344-3aab-42ec-9105-12b321e65351" />
+
+Voter Creation:
+<img width="1571" height="904" alt="image" src="https://github.com/user-attachments/assets/e5d4303b-9d66-4634-a0cc-e98bf3c4f938" />
+
+Voter Already Exists:
+<img width="1582" height="751" alt="image" src="https://github.com/user-attachments/assets/cd5817df-636c-4833-99fe-64d298f9dd37" />
+
+Get All Voters:
+<img width="1559" height="753" alt="image" src="https://github.com/user-attachments/assets/691ff22e-f72e-485d-b01d-cef9334bfcb3" />
+
+Crate new Candidate:
+<img width="1559" height="846" alt="image" src="https://github.com/user-attachments/assets/af801869-5a4a-408e-ad36-59aac522f64d" />
+
+Create Existing Candidadte: 
+<img width="1547" height="775" alt="image" src="https://github.com/user-attachments/assets/44737f32-d010-42da-847e-ef8fec7623c3" />
+
+Get All Candidades:
+<img width="1576" height="851" alt="image" src="https://github.com/user-attachments/assets/49562903-a851-4dd0-9916-872d5dd80f88" />
+
+Vote:
+<img width="1570" height="911" alt="image" src="https://github.com/user-attachments/assets/332b78aa-7382-46df-8814-1924cfbcc87c" />
+
+Votes statistics:
+![Uploading image.png…]()
+
 
 - Successful vote creation response
 - Rejected second vote attempt
