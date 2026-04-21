@@ -11,6 +11,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.test.prueba.model.dto.CandidateStatisticsResponse;
 import com.test.prueba.model.dto.VoteResponse;
 import com.test.prueba.model.dto.VoteStatisticsResponse;
+import com.test.prueba.security.JwtAuthenticationFilter;
 import com.test.prueba.services.VoteService;
 import java.time.Instant;
 import java.util.List;
@@ -34,6 +35,9 @@ class VoteControllerTest {
 
     @MockBean
     private VoteService voteService;
+
+    @MockBean
+    private JwtAuthenticationFilter jwtAuthenticationFilter;
 
     @Test
     void shouldCastVote() throws Exception {
