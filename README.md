@@ -154,6 +154,4 @@ Swagger UI:
 <img width="1262" height="1019" alt="image" src="https://github.com/user-attachments/assets/8e3cf813-4251-4572-a045-e95073ac5759" />
 
 Unit Tests:
-![Uploading image.png…]()
-
-
+<img width="1262" height="1019" alt="image" src="https://github.com/user-attachments/assets/93d74fbf-f590-40d6-808d-b980539e68cf" />
